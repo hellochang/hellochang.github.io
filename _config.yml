@@ -6,10 +6,13 @@
 # --- Required options --- #
 
 # Name of website
-title: My Website
+title: Life of Chang
 
 # Your name to show in the footer
-author: Some Person
+author: Chang Liu
+
+# Short description of your site
+description: Hello, world!
 
 # --- List of links in the navigation bar --- #
 
