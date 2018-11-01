@@ -1,14 +1,14 @@
 ---
 layout: page
 title: About me
-subtitle: NOOOOOOOOOOO
+subtitle: Hello!
 ---
+To whomever that happened to came across this website:
 
-I'm Chang
+I'm Chang Liu, a university student majoring in Math. Here are some fun facts about me:
 
-- I'm a student 
-
-What else do you need?
+- I want to learn skateboarding 
+- I love cranberries cookies
 
 ### My story
 
