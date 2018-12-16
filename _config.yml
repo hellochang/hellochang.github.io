@@ -178,12 +178,11 @@ footer-link-col: "#404040"
 #  opt-out: true
 
 # --- Comments --- #
-
 # To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
 #disqus: ""
 
-# To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
-#fb_comment_id: ""
+# To use Facebook Comments, fill in a Facebook App ID
+ fb_comment_id: "hellochang"
 
 # To use Utterances comments: (0) uncomment the following section, (1) fill in
 # "repository" (make sure the repository is public), (2) Enable Issues in your repository,
