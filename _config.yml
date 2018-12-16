@@ -127,7 +127,7 @@ url-pretty: "hellochang.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
 # disqus: ""
 
-# To use Facebook Comments, fill in a Facebook App ID
+ To use Facebook Comments, fill in a Facebook App ID
   fb_comment_id: "hellochang"
 
 # --- Misc --- #
