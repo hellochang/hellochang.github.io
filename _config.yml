@@ -30,7 +30,7 @@ description: Hello, world!
 
 navbar-links:
   About Me: "aboutme"
-  #Contact Me: https://www.linkedin.com/in/hellochang/
+  Contact Me: https://www.linkedin.com/in/hellochang/
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
@@ -182,7 +182,7 @@ footer-link-col: "#404040"
 #disqus: ""
 
 # To use Facebook Comments, fill in a Facebook App ID
- fb_comment_id: "hellochang"
+  fb_comment_id: "hellochang"
 
 # To use Utterances comments: (0) uncomment the following section, (1) fill in
 # "repository" (make sure the repository is public), (2) Enable Issues in your repository,
