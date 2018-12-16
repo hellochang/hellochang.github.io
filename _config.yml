@@ -30,7 +30,7 @@ description: Hello, world!
 
 navbar-links:
   About Me: "aboutme"
-  Contact Me: https://www.linkedin.com/in/hellochang/
+#  Contact Me: https://www.linkedin.com/in/hellochang/
 #  Resources:
  #   - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
   #  - Learn markdown: "http://www.markdowntutorial.com/"
