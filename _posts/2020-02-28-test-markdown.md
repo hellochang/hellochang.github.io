@@ -34,7 +34,7 @@ It can also be centered!
 
 Here's a code chunk:
 
-~~~
+~~~javascript
 var foo = function(x) {
   return(x + 5);
 }
@@ -43,12 +43,12 @@ foo(3)
 
 And here is the same code with syntax highlighting:
 
-```javascript
+~javascript
 var foo = function(x) {
   return(x + 5);
 }
 foo(3)
-```
+~
 
 And here is the same code yet again but with line numbers:
 
@@ -60,6 +60,7 @@ foo(3)
 {% endhighlight %}
 
 ## Boxes
+
 You can add notification, warning and error boxes like this:
 
 ### Notification
