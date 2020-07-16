@@ -10,8 +10,10 @@
 ## Distractions
 
 # The good, the bad and the ugly
-M
+I love the weekly coffee chats!
+
+The documentation is not well maintained, and it took a lot of effort for me to go through and update everything. Addtionally, the Marmoset setup is 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzODk2NzE0M119
+eyJoaXN0b3J5IjpbMTk0NjM3Mjg0MF19
 -->
