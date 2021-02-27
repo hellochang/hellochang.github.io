@@ -21,7 +21,7 @@ baseurl: ""
 title: Life of Chang
 
 # Your name to show in the footer
-author: Chang Liu
+author: "Chang Liu"
 
 # Short description of your site
 description: Hello, world!
@@ -29,6 +29,7 @@ description: Hello, world!
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  Blog: https://hellochang.github.io
   About Me: "aboutme"
   Contact Me: https://www.linkedin.com/in/hellochang/
 #  Resources:
