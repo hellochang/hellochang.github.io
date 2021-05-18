@@ -24,12 +24,13 @@ title: Life of Chang
 author: "Chang Liu"
 
 # Short description of your site
-description: Hello, world!
+description: Life stories, Data science
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
   Blog: https://hellochang.github.io
+  Projects: "projects"
   About Me: "aboutme"
   Contact Me: https://www.linkedin.com/in/hellochang/
 #  Resources:
