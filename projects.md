@@ -24,19 +24,21 @@ As an executive of 180 Degrees Consulting, I analyzed and visualized KPIs, colle
 Skills: *Python, SQL, Data Analysis, Critical Thinking*
 
 Applied SQL and Python in real-world cases using data from Shopify. Check out the [project](https://www.kaggle.com/hellochang/shopify-data-science-internship-challenge).
+
 ## Statistics and Data Blog Posts
 Skills: *R, R Markdown, Latex, Data Analysis*
 Here's some short data projects and notes that I've done using R and R Markdown.
+
 #### Data Projects
 - Math Standardized Score of California Students
 - Skewness for Median and Mean
 - Gr 5 School Test Scores
 
 #### Blog Posts
- - Bootstrap-t Confidence Interval
- - Anatomy of Significance Test
- - Influence
- - Sample
+- Bootstrap-t Confidence Interval
+- Anatomy of Significance Test
+- Influence
+- Sample
 
 ## C++ and Object Oriented 
 Skills: *C++, Git, Presentation, Oral Communication*
