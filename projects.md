@@ -18,7 +18,7 @@ I applied various sklearn algorithms (logistic regression, KNN, decision tree, r
 ## Data Analysis for 180 Degrees Consulting
 Skills: *Python, Experiment Design, Data Collection,  Data Analysis, Presentation, Oral Communication*
 
-As an executive of 180 Degrees Consulting, I analyzed and visualized KPIs, collected member feedback and HR data, performed statistical analysis, visualized results and presented them to the rest of the executives team. Here are some of my sample presentations from earlier days: ![Spring Midterm Member Feedback Review](/assets/projects/180dc/S2020 Midterm Member Feedback Review.pdf), ![Winter Midterm Member Feedback Review](/assets/projects/180dc/W2020 Midterm Member Feedback Review.pdf), ![Winter KPI EOT Review](/assets/projects/180dc/Winter KPI EOT Review.pdf)
+As an executive of 180 Degrees Consulting, I analyzed and visualized KPIs, collected member feedback and HR data, performed statistical analysis, visualized results and presented them to the rest of the executives team. Here are some of my sample presentations from earlier days: [Spring Midterm Member Feedback Review](/assets/projects/180dc/S2020 Midterm Member Feedback Review.pdf), [Winter Midterm Member Feedback Review](/assets/projects/180dc/W2020 Midterm Member Feedback Review.pdf), [Winter KPI EOT Review](/assets/projects/180dc/Winter KPI EOT Review.pdf)
 
 ## Shoe Shop Challenge
 Skills: *Python, SQL, Data Analysis, Critical Thinking*
@@ -27,6 +27,7 @@ Applied SQL and Python in real-world cases using data from Shopify. Check out th
 
 ## Statistics and Data Blog Posts
 Skills: *R, R Markdown, Latex, Data Analysis*
+
 Here's some short data projects and notes that I've done using R and R Markdown.
 
 #### Data Projects
