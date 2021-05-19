@@ -1,3 +1,10 @@
+---
+layout: post
+title: What is Influence?
+subtitle: A brief introduction of influence
+tags: [R, Statistics, Influence]
+comments: true
+---
 Influence
 =========
 

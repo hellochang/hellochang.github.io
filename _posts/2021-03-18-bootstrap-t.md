@@ -1,3 +1,10 @@
+---
+layout: post
+title: Bootstrap-t Confidence Interval
+subtitle: A Note on Bootstrap-t Confidence Interval
+tags: [R, Statistics, Influence]
+comments: true
+---
 Bootstrap-t Confidence Interval
 ===============================
 

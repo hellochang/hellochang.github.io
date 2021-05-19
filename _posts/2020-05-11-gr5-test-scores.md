@@ -1,3 +1,10 @@
+---
+layout: post
+title: Grade 5 Students in California
+subtitle: A Quick Look at Stardardized Test Scores of Grade 5 Students in California
+tags: [R, Statistics, Influence]
+comments: true
+---
 Stardardized Test Scores of Grade 5 Students in California
 ==========================================================
 
