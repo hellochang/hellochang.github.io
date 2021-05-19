@@ -17,8 +17,8 @@ The Step-By-Step Approach
 -------------------------
 
 1.  Given a sample 𝒮, an attribute *a*(𝒮), and standard error
-    $\\widehat {SD}\[\\tilde a(\\mathcal S)\]$, calculate *a*(𝒮) and
-    standard error $\\widehat {SD}\[\\tilde a(\\mathcal S)\]$ based on
+    $$\\widehat {SD}\[\\tilde a(\\mathcal S)\]$$, calculate *a*(𝒮) and
+    standard error $$\\widehat {SD}\[\\tilde a(\\mathcal S)\]$$ based on
     the sample.
 
 2.  Generate *B* bootstrap samples
@@ -27,7 +27,7 @@ The Step-By-Step Approach
 
 3.  For each of the *B* bootstrap samples, calculate
     *a*(𝒮<sub>*B*</sub><sup>\*</sup>) and error
-    $\\widehat {SD}\[\\tilde a(\\mathcal S\_B^\*)\]$. Find the value of
+    $$\\widehat {SD}\[\\tilde a(\\mathcal S\_B^\*)\]$$. Find the value of
     $$z\_B^\*=\\frac{a(\\mathcal S\_B^\*)-a(\\mathcal S)}{\\widehat {SD}\[\\tilde a(\\mathcal S\_B^\*)\]}$$
 
 4.  From the estimates of the sampling distribution
