@@ -33,13 +33,13 @@ Here's some short data projects and notes that I've done using R and R Markdown.
 #### Data Projects
 - Math Standardized Score of California Students
 - Skewness for Median and Mean
-- Gr 5 School Test Scores
+- [Gr 5 School Test Scores](https://hellochang.github.io/2020-05-11-gr5-test-scores/)
 
 #### Blog Posts
-- Bootstrap-t Confidence Interval
+- [Bootstrap-t Confidence Interval](https://hellochang.github.io/2021-03-18-bootstrap-t/)
 - Anatomy of Significance Test
-- Influence
-- Sample
+- [Influence](https://hellochang.github.io/2020-09-13-influence/)
+- [Sample](https://hellochang.github.io/2020-10-02-sample/)
 
 ## C++ and Object Oriented 
 Skills: *C++, Git, Presentation, Oral Communication*
