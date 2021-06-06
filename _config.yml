@@ -7,6 +7,10 @@
 # url is the full website URL
 # baseurl is the website's URL without the hostname
 
+markdown: kramdown
+kramdown:
+    math_engine: katex
+
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
 url: "https://hellochang.github.io"
 baseurl: ""
