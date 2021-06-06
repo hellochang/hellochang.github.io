@@ -42,11 +42,11 @@ For the population mean attribute, the population mean without unit *u*
 can be written as
 $$\\alpha(y\_1,\\ldots,y\_{u-1},y\_{u+1},\\ldots,y\_N) = \\frac{1}{N-1} \\sum\_{k\\in\\mathcal{P},k \\neq u}y\_k = \\frac{\\sum\_{k\\in\\mathcal{P}}{y\_k} - y\_u}{N -1}= \\frac{N \\bar{y}-y\_u}{N -1}$$
 So, the influence *Δ*(*α*, *u*) for the population mean is
-$$\\begin{aligned}
+$\\begin{aligned}
 \\Delta(\\alpha,u) 
   &= \\alpha(y\_1,\\ldots,y\_{u-1},y\_u,y\_{u+1},\\ldots,y\_N) - \\alpha(y\_1,\\ldots,y\_{u-1},y\_{u+1},\\ldots,y\_N) \\\\
   &= \\bar{y} - \\frac{N \\bar{y}-y\_u}{N -1} = \\frac{N \\bar{y} - \\bar{y}- N \\bar{y}+y\_u}{N -1} =\\frac {y\_u- \\bar{y}}{N -1}
-\\end{aligned}$$
+\\end{aligned}$
 When we encounter a word problem, we just need to plug in the values to
 $\\Delta(\\alpha,u)=\\frac {y\_u- \\bar{y}}{N -1}$ to find the influence
 for the given *u* for population mean.
