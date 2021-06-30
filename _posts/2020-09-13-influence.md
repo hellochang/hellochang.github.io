@@ -40,7 +40,7 @@ example of finding influence on the attribute population mean is showed.
 
 For the population mean attribute, the population mean without unit *u*
 can be written as
-$$\\alpha(y\_1,\\ldots,y\_{u-1},y\_{u+1},\\ldots,y\_N) = \\frac{1}{N-1} \\sum\_{k\\in\\mathcal{P},k \\neq u}y\_k = \\frac{\\sum\_{k\\in\\mathcal{P}}{y\_k} - y\_u}{N -1}= \\frac{N \\bar{y}-y\_u}{N -1}$$
+$$\\begin{aligned}\\alpha(y\_1,\\ldots,y\_{u-1},y\_{u+1},\\ldots,y\_N) = \\frac{1}{N-1} \\sum\_{k\\in\\mathcal{P},k \\neq u}y\_k = \\frac{\\sum\_{k\\in\\mathcal{P}}{y\_k} - y\_u}{N -1}= \\frac{N \\bar{y}-y\_u}{N -1}\\end{aligned}$$
 So, the influence *Δ*(*α*, *u*) for the population mean is
 $\\begin{aligned}
 \\Delta(\\alpha,u) 
