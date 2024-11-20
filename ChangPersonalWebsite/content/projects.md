@@ -1,8 +1,8 @@
 ---
-title: "Project"
+title: "Projects"
 layout: "single"
 url: "/projects/"
-tags: ["diffusion", "medical ai", "research", "deep learning", "computer vision"]
+tags: ["diffusion", "Medical AI", "research", "deep learning", "computer vision"]
 Params:
   ShowReadingTime: false
   ShowWordCount: false
@@ -41,7 +41,7 @@ I applied various sklearn algorithms (logistic regression, KNN, decision tree, r
 ## Towards Smaller Diffusion Models - Gaussian Mixture Masks and UNet Scaling
 *#Diffusion Models #Deep Learning #Research*
 
-Denoising diffusion probabilistic models (DDPMs) have demonstrated superior image generation capabilities but suffer from slow inference and high computational costs. As a first step to address these challenges, we propose two novel modifications to enhance small-scale diffusion models- Gaussian mixture masks and scaled skip connections. More details in the [report](../assets/projects/gmm_report.pdf) or [poster](../assets/projects/gmm_poster.pdf)
+Denoising diffusion probabilistic models (DDPMs) have demonstrated superior image generation capabilities but suffer from slow inference and high computational costs. As a first step to address these challenges, we propose two novel modifications to enhance small-scale diffusion models- Gaussian mixture masks and scaled skip connections. More details in the [report](../assets/projects/gmm_report.pdf) or [poster](../assets/projects/gmm_poster.pdf).
 
 ![](../assets/projects/gmm.png)
 
@@ -51,14 +51,15 @@ Denoising diffusion probabilistic models (DDPMs) have demonstrated superior imag
 Skills: *Computer vision, Deep Learning, Research* -->
 
 
-## DeepNash
+## DeeMash
 *#Medical AI #Deep Learning #Research*
-Coded pipelines for DeepNash, a model forecasting patient's likihood of death before receiving a transplant and deployed the model to the web. Check out the [demo](https://deepnash.streamlit.app/) and the [code repo](https://github.com/criticalml-uw/DeepMASH).
+
+Coded pipelines for DeepMash, a model forecasting patient's likihood of death before receiving a transplant and deployed the model to the web. Check out the [demo](https://deepmash.streamlit.app/) and the [code repo](https://github.com/criticalml-uw/DeepMASH).
 
 ![](../assets/projects/deepnash_plot.png)
 
-## Classify New Stars – Project for a Grad Level Course at UWaterloo
-*#R #Research #EDA #Variable Selection #Machine Learning
+## Classify New Stars 
+#R #Research #EDA #Variable Selection #Machine Learning
 
 Photography has always been one of my passions. For our project for STAT 441 Statistical Learning – Classification, we brought our passion for photography together with statistics and used NASA's astrophotography data to classify new stellar observations.
 

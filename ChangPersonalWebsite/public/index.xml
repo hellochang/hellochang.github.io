@@ -14,62 +14,20 @@
     <copyright>Copyright © Chang Liu</copyright>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>http://localhost:1313/_posts/2020-07-01-working-from-home/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/_posts/2020-07-01-working-from-home/</guid>
-      <description>What I want to get out of this experience? Some Data points of the experience Created 8 Hours of Tutorial Content on C++, OOP and Software Design My Responsiblities Normal times vs. COVID-19 A Typical Day working from home vs. working in the office Productivity Effective of Communication Always on the Clock Distractions The good, the bad and the ugly I love the weekly coffee chats!
-The documentation is not well maintained, and it took a lot of effort for me to go through and update everything.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/_posts/2020-07-10/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/_posts/2020-07-10/</guid>
-      <description>Exploring Canadian Island on the East Coast It&amp;rsquo;s only feasible to travel within the province or across the Maritimes this summer considering COVID-19.
-The ship is coming in!
-We took some photos of us on the boat because we&amp;rsquo;re traveling as a family.
-We stayed at the Marathon Inn, I always like</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/_posts/2020-08-03/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/_posts/2020-08-03/</guid>
-      <description>How to take great photos of someone else 10 Portrait Photography that everyone should know
-To-do Items
-Make a good blog post Sort your photos Setup your portfolio Setup stock image accounts Instagram photos Intro always frustrates me that I&amp;rsquo;d take great photos of someone else and other people&amp;rsquo;s photo of me would be ugly af I always look like the ugliest one in my family Why you should know this?</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/_posts/compare-math-scores/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/_posts/compare-math-scores/</guid>
-      <description>Comparing Math Standardized Score Between Large and Small Schools in California Background The data contains the average standardized test scores of grade 5 students in each school in California in the school year of 1998 through 1999. On top of the scores, information are collected on areas such as the number of students enrolled in the school, number of computers per classroom, the percentage of students in school that qualify for a reduced price lunch, and the percentage of students whose first language is not English in the school.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/_posts/gr5cali/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/_posts/gr5cali/</guid>
-      <description>Mean, Median, and Grade 5 Students in California Data URL Choose the title “California Test Score Data” on this page. Documentation for this dataset is here.
-# Setup files, not included directory &amp;lt;-&amp;quot;/Users/chang/OneDrive - University of Waterloo/3A/STAT 341/a5&amp;quot; dirsep &amp;lt;-&amp;quot;/&amp;quot; filename &amp;lt;-paste(directory,&amp;quot;CASchools.csv&amp;quot;,sep=dirsep) CASchools &amp;lt;-read.csv(filename,header=TRUE) # Change data to NA # Adjust for missing maths score missing_math &amp;lt;-CASchools[,&amp;quot;math&amp;quot;] == 0.00000 CASchools[missing_math,&amp;quot;math&amp;quot;] &amp;lt;-NA missing_read &amp;lt;-CASchools[,&amp;quot;read&amp;quot;] == 0.00000 CASchools[missing_read,&amp;quot;read&amp;quot;] &amp;lt;-NA missing_english &amp;lt;-CASchools[,&amp;quot;english&amp;quot;] == 0.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/_posts/sigtest/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/_posts/sigtest/</guid>
-      <description>Anatomy of a Significance Test The Goal We want to test the difference between attributes of 2 sub-populations relative to randomly mixed sub-populations and provide numerical evidence.
-The Null Hypothesis The following equivalent statements are the null hypothesis, H0 that we are testing.
-H0:The sub-populations P1 and P2 were randomly draw from the same population H0:The sub-populations P1 and P2 were created randomly by assigning units in the same population to each of P1 and P2 H0:The sub-populations P1 and P2 were randomly generated.</description>
-    </item>
-    <item>
       <title>An Analysis of Superbowl TV Shows</title>
       <link>http://localhost:1313/_posts/2020-04-22-super-bowl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/_posts/2020-04-22-super-bowl/</guid>
       <description>1. TV, halftime shows, and the Big Game # Import pandas import pandas as pd # Load the CSV data into DataFrames super_bowls = pd.read_csv(&amp;#39;datasets/super_bowls.csv&amp;#39;) tv = pd.read_csv(&amp;#39;datasets/tv.csv&amp;#39;) halftime_musicians = pd.read_csv(&amp;#39;datasets/halftime_musicians.csv&amp;#39;) # Display the first five rows of each DataFrame display(super_bowls.head()) display(tv.head()) display(halftime_musicians.head()) .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; } .</description>
+    </item>
+    <item>
+      <title>Anatomy of a Significance Test</title>
+      <link>http://localhost:1313/_posts/2021-03-22-sigtest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/_posts/2021-03-22-sigtest/</guid>
+      <description>Anatomy of a Significance Test The Goal We want to test the difference between attributes of 2 sub-populations relative to randomly mixed sub-populations and provide numerical evidence.
+The Null Hypothesis The following equivalent statements are the null hypothesis, H0 that we are testing.
+H0:The sub-populations P1 and P2 were randomly draw from the same population H0:The sub-populations P1 and P2 were created randomly by assigning units in the same population to each of P1 and P2 H0:The sub-populations P1 and P2 were randomly generated.</description>
     </item>
     <item>
       <title>Bootstrap-t Confidence Interval</title>
@@ -80,6 +38,15 @@ H0:The sub-populations P1 and P2 were randomly draw from the same population H0:
 The Step-By-Step Approach Given a sample 𝒮, an attribute a(𝒮), and standard error $$\widehat {SD}[\tilde a(\mathcal S)]$$, calculate a(𝒮) and standard error $$\widehat {SD}[\tilde a(\mathcal S)]$$ based on the sample.</description>
     </item>
     <item>
+      <title>Chang Liu</title>
+      <link>http://localhost:1313/aboutme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/aboutme/</guid>
+      <description>Hi! This is Chang. I&amp;rsquo;m a thesis-based Master’s student at the University of Waterloo. I&amp;rsquo;m co-supervised by Prof. Sirisha Rambhatla and Prof. Alex Wong as part of the Vision and Image Processing (VIP) Lab and Critical ML Lab. My research focus is on unsupervised domain adaptation for semantic segmentation, with application to manufacturing and medical imaging.
+Email: chang [dot] liu [at] uwaterloo [dot] ca
+Publications My ultimate goal is to blend knowledge from multiple disciplines to advance AI research.</description>
+    </item>
+    <item>
       <title>Grade 5 Students in California</title>
       <link>http://localhost:1313/_posts/2020-05-11-gr5-test-scores/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -87,13 +54,13 @@ The Step-By-Step Approach Given a sample 𝒮, an attribute a(𝒮), and standar
       <description>Stardardized Test Scores of Grade 5 Students in California Describing the Data The data contains the average standardized test scores of grade 5 students in each school in California in the school year of 1998 through 1999. On top of the scores, information are collected on areas such as the number of students enrolled in the school, number of computers per classroom, the percentage of students in school that qualify for a reduced price lunch, and the percentage of students whose first language is not English in the school.</description>
     </item>
     <item>
-      <title>Project</title>
+      <title>Projects</title>
       <link>http://localhost:1313/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/</guid>
       <description>Checkout my GitHub for coding projects
 Towards Smaller Diffusion Models - Gaussian Mixture Masks and UNet Scaling #Diffusion Models #Deep Learning #Research
-Denoising diffusion probabilistic models (DDPMs) have demonstrated superior image generation capabilities but suffer from slow inference and high computational costs. As a first step to address these challenges, we propose two novel modifications to enhance small-scale diffusion models- Gaussian mixture masks and scaled skip connections. More details in the report or poster</description>
+Denoising diffusion probabilistic models (DDPMs) have demonstrated superior image generation capabilities but suffer from slow inference and high computational costs. As a first step to address these challenges, we propose two novel modifications to enhance small-scale diffusion models- Gaussian mixture masks and scaled skip connections. More details in the report or poster.</description>
     </item>
     <item>
       <title>Statistical Sampling</title>

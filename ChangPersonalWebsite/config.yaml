@@ -16,14 +16,15 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
+  title: Life of Chang
+  description: "jotting down my reflections and learnings along the way"
+  keywords: [Chang Liu Blog, Chang Liu Portfolio, Deep Learning, Machine Learning, life experience, university of waterloo, research,
+             university application advice]
   author: Chang Liu
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
+  defaultTheme: light # dark, light
   disableThemeToggle: false
 
   ShowReadingTime: true
@@ -39,8 +40,11 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: false
+  showtoc: true
   tocopen: false
+  math: true
+  editPost:
+    disabled: true
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -52,29 +56,32 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
+    text: "Life of Chang"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    title: "Life of Chang\U0001FAB4"
+    subtitle: "jotting down my reflections and learnings along the way"
+    imageUrl: "./assets/img/aboutme/winter_casual_profile_zoomed_in.jpg"
     imageWidth: 120
     imageHeight: 120
-    imageTitle: my image
+    imageTitle: "Chang Liu Profile Picture"
     buttons:
-      - name: Posts
+      - name: Projects
+        url: /projects
+      - name: Blogs
         url: posts
       - name: Tags
         url: tags
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Life of Chang\U0001FAB4"
+    Content: "jotting down my reflections and learnings along the way"
+# 🌱
 
   socialIcons:
     - name: linkedin
@@ -119,22 +126,29 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-
-    - identifier: Projects
-      name: projects
+    - identifier: aboutme
+      name: About me
+      url: /aboutme/
+      weight: 3
+    - identifier: projects
+      name: Projects
       url: /projects/
       weight: 3
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
+    # - name: Blog
+    #   url: /archives/
+    #   weight: 5
+    
+    # - identifier: categories
+    #   name: categories
+    #   url: /categories/
+    #   weight: 10
+    # - identifier: tags
+    #   name: Tags
+    #   url: /tags/
+    #   weight: 20
+    - identifier: photos
+      name: Photos
+      url: https://www.instagram.com/changphotostudio
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
