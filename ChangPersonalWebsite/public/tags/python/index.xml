@@ -15,10 +15,10 @@
     <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An Analysis of Superbowl TV Shows</title>
-      <link>http://localhost:1313/_posts/2020-04-22-super-bowl/</link>
+      <link>http://localhost:1313/posts/2020-04-22-super-bowl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/_posts/2020-04-22-super-bowl/</guid>
-      <description>1. TV, halftime shows, and the Big Game # Import pandas import pandas as pd # Load the CSV data into DataFrames super_bowls = pd.read_csv(&amp;#39;datasets/super_bowls.csv&amp;#39;) tv = pd.read_csv(&amp;#39;datasets/tv.csv&amp;#39;) halftime_musicians = pd.read_csv(&amp;#39;datasets/halftime_musicians.csv&amp;#39;) # Display the first five rows of each DataFrame display(super_bowls.head()) display(tv.head()) display(halftime_musicians.head()) .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; } .</description>
+      <guid>http://localhost:1313/posts/2020-04-22-super-bowl/</guid>
+      <description>1. TV, halftime shows, and the Big Game # Import pandas import pandas as pd # Load the CSV data into DataFrames super_bowls = pd.read_csv(&amp;#39;datasets/super_bowls.csv&amp;#39;) tv = pd.read_csv(&amp;#39;datasets/tv.csv&amp;#39;) halftime_musicians = pd.read_csv(&amp;#39;datasets/halftime_musicians.csv&amp;#39;) # Display the first five rows of each DataFrame display(super_bowls.head()) display(tv.head()) display(halftime_musicians.head()) .dataframe tbody tr th {vertical-align: top;}.dataframe thead th {text-align: right;}.dataframe tbody tr th {vertical-align: top;}.dataframe thead th {text-align: right;}.</description>
     </item>
   </channel>
 </rss>
