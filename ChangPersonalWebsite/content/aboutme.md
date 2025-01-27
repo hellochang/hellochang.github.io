@@ -27,7 +27,7 @@ My ultimate vision is to develop safe and highly capable models that effectively
 
 Prior to my Master's, I completed my undergraduate degree at the University of Waterloo, where I collaborated with Prof. [Stephen Watt](https://cs.uwaterloo.ca/~smwatt/) on classifying students' learning habits and Prof. [Sirisha Rambhatla](https://sirisharambhatla.com/) on predicting survival probabilities for patients with alcoholic liver disease.
 
-[Email](chang.liu@uwaterloo.ca) | [Twitter/X](https://x.com/hellochangg) | [LinkedIn](www.linkedin.com/in/hellochang/)
+[Email](chang.liu@uwaterloo.ca) | [Twitter/X](https://x.com/hellochangg) | [LinkedIn](https://www.linkedin.com/in/hellochang/)
 
 <!-- {{< text-align >}} -->
 <!-- {{< /text-align >}} -->
