@@ -42,9 +42,8 @@ The Step-By-Step Approach Given a sample 𝒮, an attribute a(𝒮), and standar
       <link>http://localhost:1313/aboutme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/aboutme/</guid>
-      <description>Hi! This is Chang. I&amp;rsquo;m a thesis-based Master’s student at the University of Waterloo. I&amp;rsquo;m co-supervised by Prof. Sirisha Rambhatla and Prof. Alex Wong as part of the Vision and Image Processing (VIP) Lab and Critical ML Lab. My research focus is on unsupervised domain adaptation for semantic segmentation, with application to manufacturing, self-driving and medical imaging.
-Email | Twitter/X | LinkedIn
-Publications Chang Liu, Saad Hossain, C Thomas, Henry Lai, Ravi Vemulapalli, Sirisha Rambhatla, and Alexander Wong.</description>
+      <description>Hi! I&amp;rsquo;m Chang, a thesis-based Master’s student specializing in computer vision within the Systems Design Engineering department at the University of Waterloo. I&amp;rsquo;m co-supervised by Prof. Sirisha Rambhatla and Prof. Alexander Wong as part of the Vision and Image Processing (VIP) Lab and Critical ML Lab.
+My ultimate vision is to develop safe and highly capable models that effectively combine multiple modalities, including vision, language, audio, and more. My current research focuses on unsupervised image segmentation, particularly under distribution shifts, with applications in manufacturing and self-driving.</description>
     </item>
     <item>
       <title>Grade 5 Students in California</title>

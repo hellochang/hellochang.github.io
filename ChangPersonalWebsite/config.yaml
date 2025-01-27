@@ -4,7 +4,7 @@ paginate: 5
 theme: PaperMod
 copyright: "Copyright © Chang Liu"
 
-
+enableEmoji: true
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -130,10 +130,11 @@ menu:
       name: About me
       url: /aboutme/
       weight: 3
-    - identifier: projects
-      name: Projects
-      url: /projects/
-      weight: 3
+    # - identifier: projects
+    #   name: Projects
+    #   url: /projects/
+    #   weight: 3
+    
     # - name: Blog
     #   url: /archives/
     #   weight: 5

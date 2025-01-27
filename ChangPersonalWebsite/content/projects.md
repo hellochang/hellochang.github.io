@@ -51,7 +51,7 @@ Denoising diffusion probabilistic models (DDPMs) have demonstrated superior imag
 Skills: *Computer vision, Deep Learning, Research* -->
 
 
-## DeeMash
+## DeepMash
 *#Medical AI #Deep Learning #Research*
 
 Coded pipelines for DeepMash, a model forecasting patient's likihood of death before receiving a transplant and deployed the model to the web. Check out the [demo](https://deepmash.streamlit.app/) and the [code repo](https://github.com/criticalml-uw/DeepMASH).
