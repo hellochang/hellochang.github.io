@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research on </title>
+    <link>//localhost:1313/tags/research/</link>
+    <description>Recent content in Research on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects</title>
+      <link>//localhost:1313/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/</guid>
+      <description>Checkout my GitHub for coding projects&#xA;Towards Smaller Diffusion Models - Gaussian Mixture Masks and UNet Scaling #Diffusion Models #Deep Learning #Research&#xA;Denoising diffusion probabilistic models (DDPMs) have demonstrated superior image generation capabilities but suffer from slow inference and high computational costs. As a first step to address these challenges, we propose two novel modifications to enhance small-scale diffusion models- Gaussian mixture masks and scaled skip connections. More details in the report or poster.</description>
+    </item>
+  </channel>
+</rss>

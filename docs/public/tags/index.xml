@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on </title>
+    <link>//localhost:1313/tags/</link>
+    <description>Recent content in Tags on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analysis</title>
+      <link>//localhost:1313/tags/analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anatomy of Significance Test</title>
+      <link>//localhost:1313/tags/anatomy-of-significance-test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/anatomy-of-significance-test/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Computer Vision</title>
+      <link>//localhost:1313/tags/computer-vision/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deep Learning</title>
+      <link>//localhost:1313/tags/deep-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diffusion</title>
+      <link>//localhost:1313/tags/diffusion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/diffusion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Influence</title>
+      <link>//localhost:1313/tags/influence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/influence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Medical AI</title>
+      <link>//localhost:1313/tags/medical-ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/medical-ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>//localhost:1313/tags/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>R</title>
+      <link>//localhost:1313/tags/r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/r/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>//localhost:1313/tags/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/research/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Statistics</title>
+      <link>//localhost:1313/tags/statistics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/statistics/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
