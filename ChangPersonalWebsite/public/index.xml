@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Life of Chang</title>
-    <link>http://localhost:1313/</link>
+    <link>https://hellochang.github.io/</link>
     <description>Recent content on Life of Chang</description>
     <image>
       <title>Life of Chang</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://hellochang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://hellochang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
     <copyright>Copyright © Chang Liu</copyright>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://hellochang.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An Analysis of Superbowl TV Shows</title>
-      <link>http://localhost:1313/posts/2020-04-22-super-bowl/</link>
+      <link>https://hellochang.github.io/posts/2020-04-22-super-bowl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2020-04-22-super-bowl/</guid>
+      <guid>https://hellochang.github.io/posts/2020-04-22-super-bowl/</guid>
       <description>&lt;h2 id=&#34;1-tv-halftime-shows-and-the-big-game&#34;&gt;1. TV, halftime shows, and the Big Game&lt;/h2&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Import pandas&lt;/span&gt;
@@ -56,9 +56,9 @@
     </item>
     <item>
       <title>Anatomy of a Significance Test</title>
-      <link>http://localhost:1313/posts/2021-03-22-sigtest/</link>
+      <link>https://hellochang.github.io/posts/2021-03-22-sigtest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2021-03-22-sigtest/</guid>
+      <guid>https://hellochang.github.io/posts/2021-03-22-sigtest/</guid>
       <description>&lt;h1 id=&#34;anatomy-of-a-significance-test&#34;&gt;Anatomy of a Significance Test&lt;/h1&gt;
 &lt;h2 id=&#34;the-goal&#34;&gt;The Goal&lt;/h2&gt;
 &lt;p&gt;We want to test the difference between attributes of 2 sub-populations
@@ -83,9 +83,9 @@ attribute value.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bootstrap-t Confidence Interval</title>
-      <link>http://localhost:1313/posts/2021-03-18-bootstrap-t/</link>
+      <link>https://hellochang.github.io/posts/2021-03-18-bootstrap-t/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2021-03-18-bootstrap-t/</guid>
+      <guid>https://hellochang.github.io/posts/2021-03-18-bootstrap-t/</guid>
       <description>&lt;h1 id=&#34;bootstrap-t-confidence-interval&#34;&gt;Bootstrap-t Confidence Interval&lt;/h1&gt;
 &lt;p&gt;We want to approximate the sampling distribution of a pivotal quantity
 with bootstrap distribution so that we could construct a confidence
@@ -101,18 +101,18 @@ the sample.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Chang Liu</title>
-      <link>http://localhost:1313/aboutme/</link>
+      <link>https://hellochang.github.io/aboutme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/aboutme/</guid>
+      <guid>https://hellochang.github.io/aboutme/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;A photo of Chang&#34; loading=&#34;lazy&#34; src=&#34;../assets/img/aboutme/winter_profile_pic.jpg#center&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Hi! I&amp;rsquo;m Chang, a thesis-based Master’s student specializing in computer vision within the &lt;a href=&#34;https://uwaterloo.ca/systems-design-engineering/&#34;&gt;Systems Design Engineering&lt;/a&gt; department at the University of Waterloo. I&amp;rsquo;m co-supervised by Prof. &lt;a href=&#34;https://sirisharambhatla.com/&#34;&gt;Sirisha Rambhatla&lt;/a&gt; and Prof. &lt;a href=&#34;https://www.linkedin.com/in/alexander-wong-90650216/?originalSubdomain=ca&#34;&gt;Alexander Wong&lt;/a&gt; as part of the &lt;a href=&#34;https://vip.uwaterloo.ca/chang-liu/&#34;&gt;Vision and Image Processing (VIP) Lab&lt;/a&gt; and &lt;a href=&#34;https://sirisharambhatla.com/criticalml/&#34;&gt;Critical ML Lab&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;My ultimate vision is to develop safe and highly capable models that effectively combine multiple modalities, including vision, language, audio, and more. My current research focuses on unsupervised image segmentation, particularly under distribution shifts, with applications in manufacturing and self-driving. This work aligns with my broader vision as I incorporate language as an additional modality to tackle the distributional shift challenge.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Grade 5 Students in California</title>
-      <link>http://localhost:1313/posts/2020-05-11-gr5-test-scores/</link>
+      <link>https://hellochang.github.io/posts/2020-05-11-gr5-test-scores/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2020-05-11-gr5-test-scores/</guid>
+      <guid>https://hellochang.github.io/posts/2020-05-11-gr5-test-scores/</guid>
       <description>&lt;h1 id=&#34;stardardized-test-scores-of-grade-5-students-in-california&#34;&gt;Stardardized Test Scores of Grade 5 Students in California&lt;/h1&gt;
 &lt;h2 id=&#34;describing-the-data&#34;&gt;Describing the Data&lt;/h2&gt;
 &lt;p&gt;The data contains the average standardized test scores of grade 5
@@ -125,9 +125,9 @@ is not English in the school.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Projects</title>
-      <link>http://localhost:1313/projects/</link>
+      <link>https://hellochang.github.io/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/</guid>
+      <guid>https://hellochang.github.io/projects/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Checkout my &lt;a href=&#34;https://github.com/hellochang&#34;&gt;GitHub&lt;/a&gt; for coding projects&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -137,9 +137,9 @@ is not English in the school.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Statistical Sampling</title>
-      <link>http://localhost:1313/posts/2020-10-02-sample/</link>
+      <link>https://hellochang.github.io/posts/2020-10-02-sample/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2020-10-02-sample/</guid>
+      <guid>https://hellochang.github.io/posts/2020-10-02-sample/</guid>
       <description>&lt;h1 id=&#34;sample&#34;&gt;Sample&lt;/h1&gt;
 &lt;h2 id=&#34;sample-definitions&#34;&gt;Sample Definitions&lt;/h2&gt;
 &lt;p&gt;A &lt;strong&gt;sample&lt;/strong&gt; &lt;em&gt;S&lt;/em&gt; is a subset of the population. A sample has
@@ -159,9 +159,9 @@ sometimes consistent.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What is Influence?</title>
-      <link>http://localhost:1313/posts/2020-09-13-influence/</link>
+      <link>https://hellochang.github.io/posts/2020-09-13-influence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2020-09-13-influence/</guid>
+      <guid>https://hellochang.github.io/posts/2020-09-13-influence/</guid>
       <description>&lt;h1 id=&#34;influence&#34;&gt;Influence&lt;/h1&gt;
 &lt;h2 id=&#34;influence-definition&#34;&gt;Influence Definition&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Influence&lt;/strong&gt; of a variate &lt;em&gt;y&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;&lt;em&gt;u&lt;/em&gt;&lt;!-- raw HTML omitted --&gt; on the population attribute
