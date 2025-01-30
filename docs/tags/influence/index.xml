@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Influence on Life of Chang</title>
+    <link>https://hellochang.github.io/tags/influence/</link>
+    <description>Recent content in Influence on Life of Chang</description>
+    <image>
+      <title>Life of Chang</title>
+      <url>https://hellochang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://hellochang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.142.0</generator>
+    <language>en</language>
+    <copyright>Copyright © Chang Liu</copyright>
+    <atom:link href="https://hellochang.github.io/tags/influence/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bootstrap-t Confidence Interval</title>
+      <link>https://hellochang.github.io/posts/2021-03-18-bootstrap-t/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hellochang.github.io/posts/2021-03-18-bootstrap-t/</guid>
+      <description>&lt;h1 id=&#34;bootstrap-t-confidence-interval&#34;&gt;Bootstrap-t Confidence Interval&lt;/h1&gt;
+&lt;p&gt;We want to approximate the sampling distribution of a pivotal quantity
+with bootstrap distribution so that we could construct a confidence
+interval. The method is similar to approximating a sampling distribution
+of a pivotal quantity using a t-distribution.&lt;/p&gt;
+&lt;h2 id=&#34;the-step-by-step-approach&#34;&gt;The Step-By-Step Approach&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Given a sample 𝒮, an attribute &lt;em&gt;a&lt;/em&gt;(𝒮), and standard error
+$$\widehat {SD}[\tilde a(\mathcal S)]$$, calculate &lt;em&gt;a&lt;/em&gt;(𝒮) and
+standard error $$\widehat {SD}[\tilde a(\mathcal S)]$$ based on
+the sample.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Grade 5 Students in California</title>
+      <link>https://hellochang.github.io/posts/2020-05-11-gr5-test-scores/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hellochang.github.io/posts/2020-05-11-gr5-test-scores/</guid>
+      <description>&lt;h1 id=&#34;stardardized-test-scores-of-grade-5-students-in-california&#34;&gt;Stardardized Test Scores of Grade 5 Students in California&lt;/h1&gt;
+&lt;h2 id=&#34;describing-the-data&#34;&gt;Describing the Data&lt;/h2&gt;
+&lt;p&gt;The data contains the average standardized test scores of grade 5
+students in each school in California in the school year of 1998 through
+1999. On top of the scores, information are collected on areas such as
+the number of students enrolled in the school, number of computers per
+classroom, the percentage of students in school that qualify for a
+reduced price lunch, and the percentage of students whose first language
+is not English in the school.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Statistical Sampling</title>
+      <link>https://hellochang.github.io/posts/2020-10-02-sample/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hellochang.github.io/posts/2020-10-02-sample/</guid>
+      <description>&lt;h1 id=&#34;sample&#34;&gt;Sample&lt;/h1&gt;
+&lt;h2 id=&#34;sample-definitions&#34;&gt;Sample Definitions&lt;/h2&gt;
+&lt;p&gt;A &lt;strong&gt;sample&lt;/strong&gt; &lt;em&gt;S&lt;/em&gt; is a subset of the population. A sample has
+&lt;em&gt;n&lt;/em&gt; &amp;lt;  &amp;lt; &lt;em&gt;N&lt;/em&gt; units.&lt;br&gt;
+An sample attribute &lt;em&gt;a&lt;/em&gt;(𝒮) is an &lt;strong&gt;estimate&lt;/strong&gt; of the population
+attribute &lt;em&gt;a&lt;/em&gt;(𝒫)&lt;br&gt;
+$$ a(\mathcal S) = \widehat{a(\mathcal P)} = a(\hat{\mathcal  P})$$
+&lt;strong&gt;Sample error&lt;/strong&gt; is the difference between the sample estimate &lt;em&gt;a&lt;/em&gt;(𝒮)
+and the population attribute &lt;em&gt;a&lt;/em&gt;(𝒫) (the &lt;strong&gt;estimand&lt;/strong&gt;). For numerical
+attributes , sample error is determined mathematically. For graphical
+attributes, sample error is not determined precisely but it is still
+conceptually applicable.
+&lt;em&gt;e&lt;strong&gt;r&lt;/strong&gt;r&lt;strong&gt;o&lt;/strong&gt;r&lt;/em&gt; = &lt;em&gt;a&lt;/em&gt;(𝒮) − &lt;em&gt;a&lt;/em&gt;(𝒫)
+&lt;strong&gt;Fisher consistency&lt;/strong&gt; happens if the sample 𝒮 is equal to the
+population 𝒫 so the sample error is zero, meaning the estimation is
+sometimes consistent.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What is Influence?</title>
+      <link>https://hellochang.github.io/posts/2020-09-13-influence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hellochang.github.io/posts/2020-09-13-influence/</guid>
+      <description>&lt;h1 id=&#34;influence&#34;&gt;Influence&lt;/h1&gt;
+&lt;h2 id=&#34;influence-definition&#34;&gt;Influence Definition&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Influence&lt;/strong&gt; of a variate &lt;em&gt;y&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;&lt;em&gt;u&lt;/em&gt;&lt;!-- raw HTML omitted --&gt; on the population attribute
+when a variate &lt;em&gt;y&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;&lt;em&gt;u&lt;/em&gt;&lt;!-- raw HTML omitted --&gt; is removed from the population is
+measured by the following expression:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Δ&lt;/em&gt;(&lt;em&gt;α&lt;/em&gt;,&lt;em&gt;u&lt;/em&gt;) = &lt;em&gt;α&lt;/em&gt;(&lt;em&gt;y&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;1&lt;!-- raw HTML omitted --&gt;, …, &lt;em&gt;y&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;&lt;em&gt;u&lt;/em&gt; − 1&lt;!-- raw HTML omitted --&gt;, &lt;em&gt;y&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;&lt;em&gt;u&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;, &lt;em&gt;y&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;&lt;em&gt;u&lt;/em&gt; + 1&lt;!-- raw HTML omitted --&gt;, …, &lt;em&gt;y&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;&lt;em&gt;N&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;) − &lt;em&gt;α&lt;/em&gt;(&lt;em&gt;y&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;1&lt;!-- raw HTML omitted --&gt;, …, &lt;em&gt;y&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;&lt;em&gt;u&lt;/em&gt; − 1&lt;!-- raw HTML omitted --&gt;, &lt;em&gt;y&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;&lt;em&gt;u&lt;/em&gt; + 1&lt;!-- raw HTML omitted --&gt;, …, &lt;em&gt;y&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;&lt;em&gt;N&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;)
+for each unit &lt;em&gt;u&lt;/em&gt; in the population, and &lt;em&gt;α&lt;/em&gt; is an arbitrary population
+attribute. Note the first part of the equation contains the unit &lt;em&gt;u&lt;/em&gt;,
+and the unit &lt;em&gt;u&lt;/em&gt; is removed in the second part of the equation.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Life of Chang</title>
+    <link>https://hellochang.github.io/tags/</link>
+    <description>Recent content in Tags on Life of Chang</description>
+    <image>
+      <title>Life of Chang</title>
+      <url>https://hellochang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://hellochang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.142.0</generator>
+    <language>en</language>
+    <copyright>Copyright © Chang Liu</copyright>
+    <atom:link href="https://hellochang.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analysis</title>
+      <link>https://hellochang.github.io/tags/analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hellochang.github.io/tags/analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anatomy of Significance Test</title>
+      <link>https://hellochang.github.io/tags/anatomy-of-significance-test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hellochang.github.io/tags/anatomy-of-significance-test/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Computer Vision</title>
+      <link>https://hellochang.github.io/tags/computer-vision/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hellochang.github.io/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deep Learning</title>
+      <link>https://hellochang.github.io/tags/deep-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hellochang.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diffusion</title>
+      <link>https://hellochang.github.io/tags/diffusion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hellochang.github.io/tags/diffusion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Influence</title>
+      <link>https://hellochang.github.io/tags/influence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hellochang.github.io/tags/influence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Medical AI</title>
+      <link>https://hellochang.github.io/tags/medical-ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hellochang.github.io/tags/medical-ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://hellochang.github.io/tags/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hellochang.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>R</title>
+      <link>https://hellochang.github.io/tags/r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hellochang.github.io/tags/r/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>https://hellochang.github.io/tags/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hellochang.github.io/tags/research/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Statistics</title>
+      <link>https://hellochang.github.io/tags/statistics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hellochang.github.io/tags/statistics/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

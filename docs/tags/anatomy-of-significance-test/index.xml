@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Anatomy of Significance Test on Life of Chang</title>
+    <link>https://hellochang.github.io/tags/anatomy-of-significance-test/</link>
+    <description>Recent content in Anatomy of Significance Test on Life of Chang</description>
+    <image>
+      <title>Life of Chang</title>
+      <url>https://hellochang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://hellochang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.142.0</generator>
+    <language>en</language>
+    <copyright>Copyright © Chang Liu</copyright>
+    <atom:link href="https://hellochang.github.io/tags/anatomy-of-significance-test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anatomy of a Significance Test</title>
+      <link>https://hellochang.github.io/posts/2021-03-22-sigtest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hellochang.github.io/posts/2021-03-22-sigtest/</guid>
+      <description>&lt;h1 id=&#34;anatomy-of-a-significance-test&#34;&gt;Anatomy of a Significance Test&lt;/h1&gt;
+&lt;h2 id=&#34;the-goal&#34;&gt;The Goal&lt;/h2&gt;
+&lt;p&gt;We want to test the difference between attributes of 2 sub-populations
+relative to randomly mixed sub-populations and provide numerical
+evidence.&lt;/p&gt;
+&lt;h2 id=&#34;the-null-hypothesis&#34;&gt;The Null Hypothesis&lt;/h2&gt;
+&lt;p&gt;The following equivalent statements are the &lt;strong&gt;null hypothesis&lt;/strong&gt;,
+&lt;em&gt;H&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;0&lt;!-- raw HTML omitted --&gt; that we are testing.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;H&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;0&lt;!-- raw HTML omitted --&gt;:The sub-populations &lt;em&gt;P&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;1&lt;!-- raw HTML omitted --&gt; and
+&lt;em&gt;P&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;2&lt;!-- raw HTML omitted --&gt; were randomly draw from the same population&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;H&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;0&lt;!-- raw HTML omitted --&gt;:The sub-populations &lt;em&gt;P&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;1&lt;!-- raw HTML omitted --&gt; and
+&lt;em&gt;P&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;2&lt;!-- raw HTML omitted --&gt; were created randomly by assigning units in the same
+population to each of &lt;em&gt;P&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;1&lt;!-- raw HTML omitted --&gt; and &lt;em&gt;P&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;2&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;H&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;0&lt;!-- raw HTML omitted --&gt;:The sub-populations &lt;em&gt;P&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;1&lt;!-- raw HTML omitted --&gt; and
+&lt;em&gt;P&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;2&lt;!-- raw HTML omitted --&gt; were randomly generated.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note that that &lt;em&gt;H&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;0&lt;!-- raw HTML omitted --&gt; is weaker to be stated in the form of
+&lt;em&gt;a&lt;/em&gt;(𝒫&lt;!-- raw HTML omitted --&gt;1&lt;!-- raw HTML omitted --&gt;) = &lt;em&gt;a&lt;/em&gt;(𝒫&lt;!-- raw HTML omitted --&gt;2&lt;!-- raw HTML omitted --&gt;), although still correct. That’s
+why we shouldn’t state &lt;em&gt;H&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;0&lt;!-- raw HTML omitted --&gt; in terms of equivalence of
+attribute value.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

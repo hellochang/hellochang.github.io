@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Research on Life of Chang</title>
+    <link>https://hellochang.github.io/tags/research/</link>
+    <description>Recent content in Research on Life of Chang</description>
+    <image>
+      <title>Life of Chang</title>
+      <url>https://hellochang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://hellochang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.142.0</generator>
+    <language>en</language>
+    <copyright>Copyright © Chang Liu</copyright>
+    <atom:link href="https://hellochang.github.io/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects</title>
+      <link>https://hellochang.github.io/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hellochang.github.io/projects/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Checkout my &lt;a href=&#34;https://github.com/hellochang&#34;&gt;GitHub&lt;/a&gt; for coding projects&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;towards-smaller-diffusion-models---gaussian-mixture-masks-and-unet-scaling&#34;&gt;Towards Smaller Diffusion Models - Gaussian Mixture Masks and UNet Scaling&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;#Diffusion Models #Deep Learning #Research&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Denoising diffusion probabilistic models (DDPMs) have demonstrated superior image generation capabilities but suffer from slow inference and high computational costs. As a first step to address these challenges, we propose two novel modifications to enhance small-scale diffusion models- Gaussian mixture masks and scaled skip connections. More details in the &lt;a href=&#34;../assets/projects/gmm_report.pdf&#34;&gt;report&lt;/a&gt; or &lt;a href=&#34;../assets/projects/gmm_poster.pdf&#34;&gt;poster&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

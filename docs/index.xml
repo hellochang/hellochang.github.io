@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Life of Chang</title>
+    <link>https://hellochang.github.io/</link>
+    <description>Recent content on Life of Chang</description>
+    <image>
+      <title>Life of Chang</title>
+      <url>https://hellochang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://hellochang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.142.0</generator>
+    <language>en</language>
+    <copyright>Copyright © Chang Liu</copyright>
+    <atom:link href="https://hellochang.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An Analysis of Superbowl TV Shows</title>
+      <link>https://hellochang.github.io/posts/2020-04-22-super-bowl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hellochang.github.io/posts/2020-04-22-super-bowl/</guid>
+      <description>&lt;h2 id=&#34;1-tv-halftime-shows-and-the-big-game&#34;&gt;1. TV, halftime shows, and the Big Game&lt;/h2&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Import pandas&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pandas&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pd&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Load the CSV data into DataFrames&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;super_bowls&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pd&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;read_csv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;datasets/super_bowls.csv&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;tv&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pd&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;read_csv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;datasets/tv.csv&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;halftime_musicians&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pd&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;read_csv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;datasets/halftime_musicians.csv&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Display the first five rows of each DataFrame&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;display&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;super_bowls&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;())&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;display&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;tv&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;())&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;display&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;halftime_musicians&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;())&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;pre&gt;&lt;code&gt;.dataframe tbody tr th {
+    vertical-align: top;
+}
+
+.dataframe thead th {
+    text-align: right;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;pre&gt;&lt;code&gt;.dataframe tbody tr th {
+    vertical-align: top;
+}
+
+.dataframe thead th {
+    text-align: right;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Anatomy of a Significance Test</title>
+      <link>https://hellochang.github.io/posts/2021-03-22-sigtest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hellochang.github.io/posts/2021-03-22-sigtest/</guid>
+      <description>&lt;h1 id=&#34;anatomy-of-a-significance-test&#34;&gt;Anatomy of a Significance Test&lt;/h1&gt;
+&lt;h2 id=&#34;the-goal&#34;&gt;The Goal&lt;/h2&gt;
+&lt;p&gt;We want to test the difference between attributes of 2 sub-populations
+relative to randomly mixed sub-populations and provide numerical
+evidence.&lt;/p&gt;
+&lt;h2 id=&#34;the-null-hypothesis&#34;&gt;The Null Hypothesis&lt;/h2&gt;
+&lt;p&gt;The following equivalent statements are the &lt;strong&gt;null hypothesis&lt;/strong&gt;,
+&lt;em&gt;H&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;0&lt;!-- raw HTML omitted --&gt; that we are testing.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;H&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;0&lt;!-- raw HTML omitted --&gt;:The sub-populations &lt;em&gt;P&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;1&lt;!-- raw HTML omitted --&gt; and
+&lt;em&gt;P&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;2&lt;!-- raw HTML omitted --&gt; were randomly draw from the same population&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;H&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;0&lt;!-- raw HTML omitted --&gt;:The sub-populations &lt;em&gt;P&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;1&lt;!-- raw HTML omitted --&gt; and
+&lt;em&gt;P&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;2&lt;!-- raw HTML omitted --&gt; were created randomly by assigning units in the same
+population to each of &lt;em&gt;P&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;1&lt;!-- raw HTML omitted --&gt; and &lt;em&gt;P&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;2&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;H&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;0&lt;!-- raw HTML omitted --&gt;:The sub-populations &lt;em&gt;P&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;1&lt;!-- raw HTML omitted --&gt; and
+&lt;em&gt;P&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;2&lt;!-- raw HTML omitted --&gt; were randomly generated.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note that that &lt;em&gt;H&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;0&lt;!-- raw HTML omitted --&gt; is weaker to be stated in the form of
+&lt;em&gt;a&lt;/em&gt;(𝒫&lt;!-- raw HTML omitted --&gt;1&lt;!-- raw HTML omitted --&gt;) = &lt;em&gt;a&lt;/em&gt;(𝒫&lt;!-- raw HTML omitted --&gt;2&lt;!-- raw HTML omitted --&gt;), although still correct. That’s
+why we shouldn’t state &lt;em&gt;H&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;0&lt;!-- raw HTML omitted --&gt; in terms of equivalence of
+attribute value.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bootstrap-t Confidence Interval</title>
+      <link>https://hellochang.github.io/posts/2021-03-18-bootstrap-t/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hellochang.github.io/posts/2021-03-18-bootstrap-t/</guid>
+      <description>&lt;h1 id=&#34;bootstrap-t-confidence-interval&#34;&gt;Bootstrap-t Confidence Interval&lt;/h1&gt;
+&lt;p&gt;We want to approximate the sampling distribution of a pivotal quantity
+with bootstrap distribution so that we could construct a confidence
+interval. The method is similar to approximating a sampling distribution
+of a pivotal quantity using a t-distribution.&lt;/p&gt;
+&lt;h2 id=&#34;the-step-by-step-approach&#34;&gt;The Step-By-Step Approach&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Given a sample 𝒮, an attribute &lt;em&gt;a&lt;/em&gt;(𝒮), and standard error
+$$\widehat {SD}[\tilde a(\mathcal S)]$$, calculate &lt;em&gt;a&lt;/em&gt;(𝒮) and
+standard error $$\widehat {SD}[\tilde a(\mathcal S)]$$ based on
+the sample.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chang Liu</title>
+      <link>https://hellochang.github.io/aboutme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hellochang.github.io/aboutme/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;A photo of Chang&#34; loading=&#34;lazy&#34; src=&#34;../assets/img/aboutme/winter_profile_pic.jpg#center&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Hi! I&amp;rsquo;m Chang, a thesis-based Master’s student specializing in computer vision within the &lt;a href=&#34;https://uwaterloo.ca/systems-design-engineering/&#34;&gt;Systems Design Engineering&lt;/a&gt; department at the University of Waterloo. I&amp;rsquo;m co-supervised by Prof. &lt;a href=&#34;https://sirisharambhatla.com/&#34;&gt;Sirisha Rambhatla&lt;/a&gt; and Prof. &lt;a href=&#34;https://www.linkedin.com/in/alexander-wong-90650216/?originalSubdomain=ca&#34;&gt;Alexander Wong&lt;/a&gt; as part of the &lt;a href=&#34;https://vip.uwaterloo.ca/chang-liu/&#34;&gt;Vision and Image Processing (VIP) Lab&lt;/a&gt; and &lt;a href=&#34;https://sirisharambhatla.com/criticalml/&#34;&gt;Critical ML Lab&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My ultimate vision is to develop safe and highly capable models that effectively combine multiple modalities, including vision, language, audio, and more. My current research focuses on unsupervised image segmentation, particularly under distribution shifts, with applications in manufacturing and self-driving. This work aligns with my broader vision as I incorporate language as an additional modality to tackle the distributional shift challenge.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Grade 5 Students in California</title>
+      <link>https://hellochang.github.io/posts/2020-05-11-gr5-test-scores/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hellochang.github.io/posts/2020-05-11-gr5-test-scores/</guid>
+      <description>&lt;h1 id=&#34;stardardized-test-scores-of-grade-5-students-in-california&#34;&gt;Stardardized Test Scores of Grade 5 Students in California&lt;/h1&gt;
+&lt;h2 id=&#34;describing-the-data&#34;&gt;Describing the Data&lt;/h2&gt;
+&lt;p&gt;The data contains the average standardized test scores of grade 5
+students in each school in California in the school year of 1998 through
+1999. On top of the scores, information are collected on areas such as
+the number of students enrolled in the school, number of computers per
+classroom, the percentage of students in school that qualify for a
+reduced price lunch, and the percentage of students whose first language
+is not English in the school.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>https://hellochang.github.io/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hellochang.github.io/projects/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Checkout my &lt;a href=&#34;https://github.com/hellochang&#34;&gt;GitHub&lt;/a&gt; for coding projects&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;towards-smaller-diffusion-models---gaussian-mixture-masks-and-unet-scaling&#34;&gt;Towards Smaller Diffusion Models - Gaussian Mixture Masks and UNet Scaling&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;#Diffusion Models #Deep Learning #Research&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Denoising diffusion probabilistic models (DDPMs) have demonstrated superior image generation capabilities but suffer from slow inference and high computational costs. As a first step to address these challenges, we propose two novel modifications to enhance small-scale diffusion models- Gaussian mixture masks and scaled skip connections. More details in the &lt;a href=&#34;../assets/projects/gmm_report.pdf&#34;&gt;report&lt;/a&gt; or &lt;a href=&#34;../assets/projects/gmm_poster.pdf&#34;&gt;poster&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Statistical Sampling</title>
+      <link>https://hellochang.github.io/posts/2020-10-02-sample/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hellochang.github.io/posts/2020-10-02-sample/</guid>
+      <description>&lt;h1 id=&#34;sample&#34;&gt;Sample&lt;/h1&gt;
+&lt;h2 id=&#34;sample-definitions&#34;&gt;Sample Definitions&lt;/h2&gt;
+&lt;p&gt;A &lt;strong&gt;sample&lt;/strong&gt; &lt;em&gt;S&lt;/em&gt; is a subset of the population. A sample has
+&lt;em&gt;n&lt;/em&gt; &amp;lt;  &amp;lt; &lt;em&gt;N&lt;/em&gt; units.&lt;br&gt;
+An sample attribute &lt;em&gt;a&lt;/em&gt;(𝒮) is an &lt;strong&gt;estimate&lt;/strong&gt; of the population
+attribute &lt;em&gt;a&lt;/em&gt;(𝒫)&lt;br&gt;
+$$ a(\mathcal S) = \widehat{a(\mathcal P)} = a(\hat{\mathcal  P})$$
+&lt;strong&gt;Sample error&lt;/strong&gt; is the difference between the sample estimate &lt;em&gt;a&lt;/em&gt;(𝒮)
+and the population attribute &lt;em&gt;a&lt;/em&gt;(𝒫) (the &lt;strong&gt;estimand&lt;/strong&gt;). For numerical
+attributes , sample error is determined mathematically. For graphical
+attributes, sample error is not determined precisely but it is still
+conceptually applicable.
+&lt;em&gt;e&lt;strong&gt;r&lt;/strong&gt;r&lt;strong&gt;o&lt;/strong&gt;r&lt;/em&gt; = &lt;em&gt;a&lt;/em&gt;(𝒮) − &lt;em&gt;a&lt;/em&gt;(𝒫)
+&lt;strong&gt;Fisher consistency&lt;/strong&gt; happens if the sample 𝒮 is equal to the
+population 𝒫 so the sample error is zero, meaning the estimation is
+sometimes consistent.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What is Influence?</title>
+      <link>https://hellochang.github.io/posts/2020-09-13-influence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hellochang.github.io/posts/2020-09-13-influence/</guid>
+      <description>&lt;h1 id=&#34;influence&#34;&gt;Influence&lt;/h1&gt;
+&lt;h2 id=&#34;influence-definition&#34;&gt;Influence Definition&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Influence&lt;/strong&gt; of a variate &lt;em&gt;y&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;&lt;em&gt;u&lt;/em&gt;&lt;!-- raw HTML omitted --&gt; on the population attribute
+when a variate &lt;em&gt;y&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;&lt;em&gt;u&lt;/em&gt;&lt;!-- raw HTML omitted --&gt; is removed from the population is
+measured by the following expression:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Δ&lt;/em&gt;(&lt;em&gt;α&lt;/em&gt;,&lt;em&gt;u&lt;/em&gt;) = &lt;em&gt;α&lt;/em&gt;(&lt;em&gt;y&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;1&lt;!-- raw HTML omitted --&gt;, …, &lt;em&gt;y&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;&lt;em&gt;u&lt;/em&gt; − 1&lt;!-- raw HTML omitted --&gt;, &lt;em&gt;y&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;&lt;em&gt;u&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;, &lt;em&gt;y&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;&lt;em&gt;u&lt;/em&gt; + 1&lt;!-- raw HTML omitted --&gt;, …, &lt;em&gt;y&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;&lt;em&gt;N&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;) − &lt;em&gt;α&lt;/em&gt;(&lt;em&gt;y&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;1&lt;!-- raw HTML omitted --&gt;, …, &lt;em&gt;y&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;&lt;em&gt;u&lt;/em&gt; − 1&lt;!-- raw HTML omitted --&gt;, &lt;em&gt;y&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;&lt;em&gt;u&lt;/em&gt; + 1&lt;!-- raw HTML omitted --&gt;, …, &lt;em&gt;y&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;&lt;em&gt;N&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;)
+for each unit &lt;em&gt;u&lt;/em&gt; in the population, and &lt;em&gt;α&lt;/em&gt; is an arbitrary population
+attribute. Note the first part of the equation contains the unit &lt;em&gt;u&lt;/em&gt;,
+and the unit &lt;em&gt;u&lt;/em&gt; is removed in the second part of the equation.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
