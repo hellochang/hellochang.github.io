@@ -1,18 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Diffusion on </title>
-    <link>//localhost:1313/tags/diffusion/</link>
-    <description>Recent content in Diffusion on </description>
-    <generator>Hugo</generator>
+    <title>Diffusion on Life of Chang</title>
+    <link>http://localhost:1313/tags/diffusion/</link>
+    <description>Recent content in Diffusion on Life of Chang</description>
+    <image>
+      <title>Life of Chang</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
-    <atom:link href="//localhost:1313/tags/diffusion/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © Chang Liu</copyright>
+    <atom:link href="http://localhost:1313/tags/diffusion/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Projects</title>
-      <link>//localhost:1313/projects/</link>
+      <link>http://localhost:1313/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/</guid>
-      <description>Checkout my GitHub for coding projects&#xA;Towards Smaller Diffusion Models - Gaussian Mixture Masks and UNet Scaling #Diffusion Models #Deep Learning #Research&#xA;Denoising diffusion probabilistic models (DDPMs) have demonstrated superior image generation capabilities but suffer from slow inference and high computational costs. As a first step to address these challenges, we propose two novel modifications to enhance small-scale diffusion models- Gaussian mixture masks and scaled skip connections. More details in the report or poster.</description>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Checkout my &lt;a href=&#34;https://github.com/hellochang&#34;&gt;GitHub&lt;/a&gt; for coding projects&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;towards-smaller-diffusion-models---gaussian-mixture-masks-and-unet-scaling&#34;&gt;Towards Smaller Diffusion Models - Gaussian Mixture Masks and UNet Scaling&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;#Diffusion Models #Deep Learning #Research&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Denoising diffusion probabilistic models (DDPMs) have demonstrated superior image generation capabilities but suffer from slow inference and high computational costs. As a first step to address these challenges, we propose two novel modifications to enhance small-scale diffusion models- Gaussian mixture masks and scaled skip connections. More details in the &lt;a href=&#34;../assets/projects/gmm_report.pdf&#34;&gt;report&lt;/a&gt; or &lt;a href=&#34;../assets/projects/gmm_poster.pdf&#34;&gt;poster&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
